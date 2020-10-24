@@ -1,0 +1,96 @@
+/* Стиль для подложки всех страниц*/
+body {
+  background-color : #f8f8f8;
+}
+/* Стили меню сайта */
+.menu {
+  font-size: 16px;
+  color: green;
+  font-style: italic;
+  list-style-type: none;
+  }
+.menu a{
+  text-decoration: none;
+  color: green;
+}
+.menu li a:hover{
+   color: darkblue;
+}
+.menu li a:active {
+   color: orange;
+}
+/*  Стиль шапки сайта*/
+.header .menu:before {
+    content: " ";
+    background: URL(images/logo.jpg); 
+    display: block;
+    height: 80px;
+    width: 100px;
+}
+/* Стили для страниц-описаний товаров */
+.headers {
+  font-size: 18px;
+  color: black;
+  font-weight: 400;
+  background-color : #eaeaea;
+}
+.shrt_description {
+  color: #707070;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 16px;
+}
+.full-description {
+  color: #484343;
+  font-size: 16px;
+  font-weight: 400;
+  lie-height: 24px;
+  text-align: left
+}
+.features {
+  background-color: lightgrey;
+  font-weight: bold;
+  color: darkblue;
+  text-align: left;
+}
+/* Стили для формы вво */
+.fields {
+  height: 20px;
+  width: 200px;
+  border: 1px solid grey;
+  color: gren;
+  font-size: 14px;
+}
+.fields[type ="text"] {
+  color:green;
+}
+#mail_field:focus {
+  color: red;
+  background-color: lightblue;
+}
+.fields value:first-letter: {
+  text-transform: capitalize;
+  color: blue;
+}
+/*Стиль рамок для картинок */
+.img_border {
+     border: 3px solid red;
+}
+/* Оформление таблиц*/
+.t_features {
+  border: 1px solid darkblue;
+  border-collapse: collapse;
+}
+.t_features td {
+    border: 1px solid darkblue;
+}
+.t_features tr:nth-child(1) {
+    background-color: lightgreen;
+    font-weight: bold;
+    text-align: center;
+}
+.t_features tr:nth-child(2) {
+    background-color: lightgreen;
+    font-weight: bold;
+    text-align: center;
+}
